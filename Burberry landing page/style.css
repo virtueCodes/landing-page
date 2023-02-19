@@ -1,0 +1,213 @@
+*
+{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body{
+     transition: 1s;
+}
+section{
+ height: 100vh;
+}
+
+.logo{
+ font-size: 30px;
+  font-family: "Styrene", Helvetica, Arial, sans-serif;
+  margin-top: 13px;
+ }
+
+ .nav-list{
+  font-size: larger;
+  margin-top: 23px;
+ }
+
+.navlists{
+     /* border: 1px solid blue; */
+     position: relative;
+     transition: all 1s !important;
+     padding-right: 10px;
+     }
+
+ .navlists:hover {
+color:gray;
+ }
+
+ .nav-list a.after {
+      border-bottom: 3px solid black;
+ }
+
+
+  .navlists{
+   text-decoration: none;
+   color: black;
+
+  }
+
+ .navlists:nth-child(6){
+padding-left: 150px;
+ }
+
+ .header-container{
+  display: flex;
+  justify-content:space-around;
+  gap: 50px;
+ }
+
+
+ .content-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.contents
+p{
+line-height: 10em;
+font-size: 1rem;
+max-width: 500px;
+}
+
+.contents{
+margin-right: 150px;
+margin-top: 50px;
+}
+
+.content-img{
+margin-top: 70px;
+margin-right: 100px;
+}
+
+.contents h2{
+      line-height: 1.5em;
+      font-weight: 900;
+      text-transform: uppercase;
+      max-width: 100px;
+}
+
+.cultural{
+ font-size: 2em;
+}
+
+.heritage{
+     font-size: 4em;
+}
+
+
+.contents p{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: 2em;
+line-break: loose;  
+}
+
+
+.buy-now{
+text-decoration: none;
+border: 2px solid black;
+padding: 5px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 10px;
+margin: 3px; 
+border-radius: 10px;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buy-now:hover{
+     background-color: black;
+     color: white;
+     transition: 1s;
+}
+
+ .socials-icon{
+display: flex;
+flex-direction: column; 
+
+} 
+
+.icon{
+margin-bottom: 25px;
+color: black;
+}
+
+.icon:hover{
+transform: scale(1.6);
+transition: 0.3s;
+} 
+
+
+.radio-box{
+ display: flex;
+ justify-content: center;
+ flex-direction:row;
+ gap: 20px;
+
+}
+
+
+.container{
+display: flex;
+cursor: pointer;
+font-size: 22rem;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+}
+
+.radio-btn{
+     display: flex;
+     flex-direction: row;
+}
+.container input {
+     position: absolute;
+     opacity: 0;
+     cursor: pointer;
+}
+
+.checkmark-1{
+     height: 25px;
+     width: 25px;
+     background-color: #9c846a;
+     border-radius: 50%;
+}
+
+.checkmark-2{
+     height: 25px;
+     width: 25px;
+     background-color:#bbbbbb;
+     border-radius: 50%;
+}
+
+.checkmark-3{
+     height: 25px;
+     width: 25px;
+     background-color: white;
+     border-radius: 50%;
+}
+
+
+
+.container input:checked~.checkmark-1
+{
+border: 2px solid black;
+}
+
+.container input:checked~.checkmark-2 {
+     border: 2px solid black;
+
+}
+
+.container input:checked~.checkmark-3 {
+     border: 2px solid black;
+     
+}
+
+
+
+
+
+
